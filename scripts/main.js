@@ -61,6 +61,15 @@ incAsync.addEventListener('click', () => {
 // action is an object with a type property
 // switch is a handy way for a reducer to work with actions
 
+// the reducer is passed to redux.createStore--
+// so the state of your app is held in memory
+
+// the state updates to the effect of applying an action
+// the actual image-- the photocopier thing-- the image itself
+// is kind of nowhere. it's based on teh previous thing.
+
+// you just have access to returned values.
+// you create a store, dispatch actions, and redux makes it happen.
 
 // ^commented out things are things you should do just in the console.
 // now every time you do store.dispatch, your 2, 3, 4 should be console logged every decrement
